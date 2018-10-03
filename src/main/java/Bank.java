@@ -6,10 +6,18 @@
  * accessing private variables.
  *
  * @see <a href="https://cs125.cs.illinois.edu/lab/5/">Lab 5 Description</a>
+ *
  */
 public class Bank {
+    /**
+     * @param bankName the name of the bank.
+     */
 
-    public String bankName;
+    private String bankName;
+
+    /**
+     * @param
+     */
 
     public Bank() {
         bankName = "Illini Bank";
@@ -29,6 +37,7 @@ public class Bank {
         /*
          * Implement this function
          */
+        double rest =
     }
 
     /**
@@ -77,9 +86,13 @@ public class Bank {
         /*
          * Implement this function
          */
+        bankAccount = name;
     }
 
-    public static int totalAccounts = 0;
+    /**
+     * @param totalAccounts theaccounts
+     */
+    private static int totalAccounts = 0;
     /**
      * Uses static variable to get number of bank accounts opened.
      *
