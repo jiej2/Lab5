@@ -102,6 +102,9 @@ public class Bank {
         /*
          * Implement this function
          */
+        totalAccounts++;
+        return totalAccounts;
+
     }
 
     /**
